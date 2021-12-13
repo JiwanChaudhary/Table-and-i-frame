@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+<style>
+    body {
+        background-color: greenyellow;
+        height: 100%;
+    }
+
+    .htmlTable {
+        display: grid;
+        place-items: center;
+    }
+
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 7px 10px;
+    }
+</style>
+<body>
+    <div class="htmlTable">
+        <h3>This is our Subject Time Table</h3>
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th>Days</th>
+            <th>7:00-8:40</th>
+            <th>8:40-10:20</th>
+            <th rowspan="5">Launch</th>
+            <th>11:10-12:50</th>
+            <th>12:50-2:30</th>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>C</td>
+            <td>C++</td>
+            <td>WT</td>
+            <td>DSA</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="2">Logic Circuit</td>
+            <td>WT</td>
+            <td>DSA</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>C</td>
+            <td>C++</td>
+            <td colspan="2">WT</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>C</td>
+            <td>C++</td>
+            <td>WT</td>
+            <td>DSA</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

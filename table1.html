@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table With Image</title>
+</head>
+<style>
+    body {
+        background-color: rgb(211, 132, 235);
+    }
+
+    table, th, td {
+        border: 2px solid black;
+    }
+
+    .htmlTable {
+        display: grid;
+        place-items: center;
+    }
+
+    th, td {
+        padding: 0 7px;
+    }
+
+    .list {
+        padding: 50px 0 0 200px;
+    }
+
+</style>
+<body>
+    <div class="list">
+        <!-- Ordered List -->
+    <ol>
+        <li>Paragraph</li>
+        <li>Heading</li>
+        <li><a href="table.html" target="_blank">Table</a></li>
+    </ol>
+    <!-- Unordered List -->
+    <ul>
+        <li>Text Format</li>
+        <li>Hyper Format</li>
+        <li><a href="iframe.html" target="_jiwan">Iframe</a></li>
+    </ul>
+    </div>
+
+    <!-- Table  -->
+    <div class="htmlTable">
+        <table>
+            <tr>
+                <th colspan="2">Table With Image</th>
+            </tr>
+            <tr>
+                <th>List of Subjects</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    Technical Subjects
+                    <ol>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>WT</li>
+                    </ol>
+                    Non-Technical Subjects
+                    <ul>
+                        <li>English</li>
+                        <li>Nepali</li>
+                        <li>Math</li>
+                    </ul>
+                </td>
+                <td>
+                    <img src="image/mountain.jpg" alt="Mountain" height="80px" width="170px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="image/youtube1.jpg" alt="Youtube-logo" height="120px" width="170px">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
